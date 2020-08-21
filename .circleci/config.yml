@@ -10,6 +10,6 @@ jobs:
           name: Greeting
           commnad: echo Hello, World
       - run:
-          name: Print the current time
+          name: Print the current times
 	  command: date
 
