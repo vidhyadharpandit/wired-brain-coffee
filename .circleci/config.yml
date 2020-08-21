@@ -1,16 +1,13 @@
-version: 2
+version: 2.1
 jobs:
   builddsd:
     docker:
-      - image: circleci/ruby:2.4.1-node-browsers
-    
+      - image: circleci/ruby:2.4.1-node-browsers    
     steps:
       - checkout
-      
       - run:
         name: Greeting
         commnad: echo Hello, World
-        
       - run:
         name: Print the current time
         command: date
